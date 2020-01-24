@@ -15,6 +15,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
+      <h1>Find your local US weather</h1>
       </div>
     );
   }
