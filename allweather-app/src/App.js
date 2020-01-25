@@ -16,6 +16,9 @@ class App extends Component {
     return (
       <div className="App">
       <h1>Find your local US weather</h1>
+      <ZipInput 
+          value = {this.state.value}
+        />
       </div>
     );
   }
