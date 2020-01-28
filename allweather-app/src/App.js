@@ -19,6 +19,9 @@ class App extends Component {
       <ZipInput 
           value = {this.state.value}
         />
+      <Info 
+      location = {this.state.location} 
+      />
       </div>
     );
   }
