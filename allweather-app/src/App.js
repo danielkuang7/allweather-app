@@ -20,7 +20,8 @@ class App extends Component {
           value = {this.state.value}
         />
       <Info 
-      location = {this.state.location} 
+      location = {this.state.location}
+      currentTemperature = {this.state.currentTemperature} 
       />
       </div>
     );
