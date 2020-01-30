@@ -22,6 +22,7 @@ class App extends Component {
       <Info 
       location = {this.state.location}
       currentTemperature = {this.state.currentTemperature} 
+      currentCondition = {this.state.currentCondition}
       />
       </div>
     );
