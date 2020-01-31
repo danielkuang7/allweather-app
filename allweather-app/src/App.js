@@ -11,6 +11,7 @@ class App extends Component {
       currentTemperature: '',
       currentCondition: ''
     }
+    this.handleChange = this.handleChange.bind(this)
   }
   render(){
     return (
@@ -18,6 +19,7 @@ class App extends Component {
       <h1>Find your local US weather</h1>
       <ZipInput 
           value = {this.state.value}
+          handleChange = {this.handleChange}
         />
       <Info 
       location = {this.state.location}
