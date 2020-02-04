@@ -18,6 +18,10 @@ class App extends Component {
     this.setState({value: event.target.value})
   }
 
+  handleSubmit (event) {
+    event.preventDefault()
+  }
+
   render(){
     return (
       <div className="App">
