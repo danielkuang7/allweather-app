@@ -20,6 +20,8 @@ class App extends Component {
 
   handleSubmit (event) {
     event.preventDefault()
+    let zipInput= this.state.zipCode
+    zipInput.push(this.state.value)
   }
 
   render(){
