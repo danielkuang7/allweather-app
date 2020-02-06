@@ -22,6 +22,8 @@ class App extends Component {
     event.preventDefault()
     let zipInput= this.state.zipCode
     zipInput.push(this.state.value)
+    this.setState({zipCode: zipInput})
+    this.getAPI()
   }
 
   render(){
