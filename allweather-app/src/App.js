@@ -26,6 +26,13 @@ class App extends Component {
     this.getAPI()
   }
 
+  getAPI () {
+    
+  }
+
+
+
+
   render(){
     return (
       <div className="App">
