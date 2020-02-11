@@ -29,6 +29,7 @@ class App extends Component {
   getAPI () {
     fetch(`https://api.openweathermap.org/data/2.5/weather?zip=${this.state.zipCode[0]},us&units=imperial&appid=aa69e359bfb84f6538d46dc30894898a
     `)
+    .then (response => response.json())
   }
 
 
