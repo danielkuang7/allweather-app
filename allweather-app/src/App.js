@@ -33,6 +33,8 @@ class App extends Component {
     .then (json => {
       this.setState({ 
         location: json.name,
+        currentTemperature: Math.round(json.main.temp),
+        currentCondition: json.weather[0].description   
       })
     })
   }
