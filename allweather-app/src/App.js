@@ -37,6 +37,10 @@ class App extends Component {
         currentCondition: json.weather[0].description   
       })
     })
+    .then (
+      this.state.zipCode.pop()
+     )
+
   }
 
 
