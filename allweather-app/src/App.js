@@ -53,6 +53,7 @@ class App extends Component {
       <ZipInput 
           value = {this.state.value}
           handleChange = {this.handleChange}
+          handleSubmit = {this.handleSubmit}
         />
       <Info 
       location = {this.state.location}
