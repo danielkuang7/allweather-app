@@ -1,3 +1,8 @@
 body {
   background-image: linear-gradient(to right top, #c5d03e, #b1d92f, #96e226, #6feb27, #08f434);
 }
+
+.app {
+  font-family: 'Playfair Display', serif;
+  display: flex;
+}
