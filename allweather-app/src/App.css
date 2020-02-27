@@ -5,4 +5,6 @@ body {
 .app {
   font-family: 'Playfair Display', serif;
   display: flex;
+  flex-direction: column;
+  text-align: center;  
 }
