@@ -22,3 +22,8 @@ h1 {
 .enter{
   width: 50px;
 }
+
+.info{
+  color: white;
+  font-size: 30px;
+}
