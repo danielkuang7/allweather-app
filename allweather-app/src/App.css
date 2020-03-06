@@ -26,4 +26,6 @@ h1 {
 .info{
   color: white;
   font-size: 30px;
+  border-style: inset;
+  margin-top: 80px;
 }
