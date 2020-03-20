@@ -5,6 +5,9 @@ class ZipInput extends Component {
         return (
             <div>
             <form onSubmit = { this.props.handleSubmit }>
+            <input 
+             className="zip">
+             </input>
             </form>
                 </div>
             )
