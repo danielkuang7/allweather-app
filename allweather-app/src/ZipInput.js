@@ -8,6 +8,9 @@ class ZipInput extends Component {
             <input 
              className="zip">
              </input>
+
+             <input 
+          className="enter" type="submit" value="Enter"></input>
             </form>
                 </div>
             )
