@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ZipInput from './ZipInput'
+import Info from './Info'
 import './App.css';
 
 class App extends Component {
