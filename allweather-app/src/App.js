@@ -34,39 +34,38 @@ class App extends Component {
     `)
     .then (response => response.json())
     .then (json => {
-      this.setState({ 
+      this.setState({
         location: json.name,
         currentTemperature: Math.round(json.main.temp),
         currentCondition: json.weather[0].description   
       })
     })
     .then (
-      this.state.zipCode.pop()
-     )
-
+     this.state.zipCode.pop()
+    )
   }
 
-
-
-
-  render(){
+  render() {
     return (
-      <div className="App">
-      <h1>Find your local US weather</h1>
-      <ZipInput 
+      <div className="app">
+        <h1>Find your local US weather</h1>
+        
+        <ZipInput 
           value = {this.state.value}
           handleChange = {this.handleChange}
           handleSubmit = {this.handleSubmit}
         />
-      <Info 
-      location = {this.state.location}
-      currentTemperature = {this.state.currentTemperature} 
-      currentCondition = {this.state.currentCondition}
-      />
+        <Info 
+        location = {this.state.location} 
+        currentTemperature = {this.state.currentTemperature}
+        currentCondition = { this.state.currentCondition}
+        />
       </div>
     );
   }
-  
 }
 
 export default App;
+
+
+
